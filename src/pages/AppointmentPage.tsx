@@ -49,7 +49,7 @@ export default function AppointmentPage () {
       });
       const data = await res.json()
 
-      setResponseStatus(data.status)
+      setResponseStatus(res.status)
       setNotificationMessage(data.message)
     } catch (error) {
       console.error(error)
