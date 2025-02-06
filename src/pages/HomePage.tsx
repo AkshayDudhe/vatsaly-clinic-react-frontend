@@ -11,7 +11,7 @@ export default function HomePage () {
       <div className="container">
         <section className="text-lg p-4">
             <h2>Welcome</h2>
-            <p>At {APP_NAME} clinic, we believe in the power of homeopathy to unlock the body’s innate ability to heal. Led by Dr. {doctor.firstName} {doctor.lastName} {doctor.education}, a compassionate and dedicated homeopathy practitioner with over {doctor.experience} years of experience, our clinic is committed to providing personalized, holistic care that addresses the root cause of illness, not just its symptoms.</p>
+            <p>At {APP_NAME} clinic, we believe in the power of homeopathy to unlock the body’s innate ability to heal. Led by Dr. {doctor.firstName} {doctor.lastName} {doctor.education}, our clinic is committed to providing personalized, holistic care that addresses the root cause of illness, not just its symptoms.</p>
         </section>
         <section className="p-4 text-lg">
             <h3 className='text-lg font-semibold'>Our specialty:</h3>
@@ -41,16 +41,18 @@ export default function HomePage () {
                 testimony={`Before seeing him, I had consulted four or five doctors, but their treatments only provided temporary relief—my symptoms would return within weeks. Dr. Mahesh took a deeper approach, carefully investigating my condition by asking about my lifestyle and habits. This personalized attention made all the difference in my recovery. I’m incredibly grateful for his help and have already recommended him to my friends and family.
                 Thank you again Dr.`}/>
               <Card 
-                name='Tejas Shedge'
+                name='Suraj Suryavanshi'
                 title='Good results within 4-5 weeks'
                 testimony='Hii.. I had lots of hair problem from last 6 months.. Continuously hair fall, dandruff , itching over the scalp.. Used lots of shampoo and hair oil but it doesn`t show the result.. After I talk with Dr. Mahesh misal he  took the case  properly and started homeopathic medicine within 2 months.. I get  results in my hair growth and increase the volume of my hair.' 
               />
               <Card 
+                name='Kiran Pisal, Baramati'
                 testimony='I am suffered from abdominal problem was last 6 yrs and urinary problem.. I visited many hospitals and took various therapies.. but had not relief.. 
 But after meet with Dr. Mahesh Misal gave me positivity, hope and cure from his consulting and treatment within 15 days.. 
  thankful to the doctor for his skillful homeopathy...'
               />
               <Card 
+                name='सागर माळी'
                 testimony='नमस्कार 
                   माझी मुलगी .... तीला ताप आणि अशक्तपणा गेले 8 दिवस होता काही केल्या बर वाटत नव्हत. पण आम्ही जेव्हा मिसाळ डॉक्टरांना भेटलो आणि होमिओपॅथी  औषध घेतले आणि त्यांनी तीनच डोस दिले.. त्याने तिचा ताप तर गेलाच आणि अशक्त पणाही गेला.. 
                   Thank you Doctor 🙏🏻
@@ -71,9 +73,7 @@ But after meet with Dr. Mahesh Misal gave me positivity, hope and cure from his 
                     <p>📧 maheshmisal825@gmail.com</p>
                 </div>
                 <span className='py-5 text-md md:order-3'>📍
-                  123 Greenleaf Avenue Suite<br/>
-                    42B Springfield, <br/>
-                  NY 11223 USA
+                Vatsalya clinic, Uktad,<br/> Guhagar road, Chiplun, Dist- Ratnagiri.
                 </span>
             </div>
         </footer>

@@ -58,7 +58,7 @@ export default function AppointmentPage () {
   return (
     <div className="w-full h-screen px-5 bg-lime-100">
       {notificationMessage && <div
-  className={`fixed top-15 right-5 ${responseStatus === 200 ? 'bg-green-500' : 'bg-red-500'} text-white px-4 py-2 rounded-lg shadow-lg transition-transform duration-500 ${
+  className={`fixed bottom-10 right-5 ${responseStatus === 200 ? 'text-blue-600 bg-blue-100' : 'text-red-500 bg-red-100'} px-4 py-2 rounded-lg shadow-lg transition-transform duration-500 ${
     notificationMessage ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
   } cursor-pointer`}
   onClick={() => setNotificationMessage('')}
