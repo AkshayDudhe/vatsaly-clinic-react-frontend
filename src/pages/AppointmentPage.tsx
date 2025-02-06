@@ -19,7 +19,7 @@ export default function AppointmentPage () {
     setFormData((prevData) => { return { ...prevData, [e.target.name]: e.target.value }})
   }
 
-  const timeoutRef = useRef(null); // For storing the timeout ID to clear it on re-renders
+  const timeoutRef = useRef<number | null>(null); // For storing the timeout ID to clear it on re-renders
 
   useEffect(() => {
     if (notificationMessage) {
