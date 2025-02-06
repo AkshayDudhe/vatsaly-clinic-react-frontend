@@ -69,10 +69,10 @@ But after meet with Dr. Mahesh Misal gave me positivity, hope and cure from his 
                     <h2 className='font-sans text-lg pb-5'>Begin Your Healing Journey</h2>
                 </div>
                 <div className='py-5 md:order-1'>
-                    <p>📞 91+ 70839 77873</p>
-                    <p>📧 maheshmisal825@gmail.com</p>
+                    <p><i className="fa-solid fa-phone"></i> +91 70839 77873</p>
+                    <p><i className="fa-solid fa-envelope"></i> maheshmisal825@gmail.com</p>
                 </div>
-                <span className='py-5 text-md md:order-3'>📍
+                <span className='pb-5 text-md md:order-3'><i className="fa-solid fa-location-dot fa-red"></i><br/> 
                 Vatsalya clinic, Uktad,<br/> Guhagar road, Chiplun, Dist- Ratnagiri.
                 </span>
             </div>
