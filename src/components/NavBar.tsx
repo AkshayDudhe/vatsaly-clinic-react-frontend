@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom"
 
 export default function NavBar () {
   const location = useLocation()
-  console.log(location)
   return (
     <nav className="sticky top-0 flex justify-between pt-2 pb-1 px-3 bg-green-600 text-white shadow shadow-lg">
       <div className="text-2xl mb-1">
