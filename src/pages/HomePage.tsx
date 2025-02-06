@@ -24,7 +24,7 @@ export default function HomePage () {
         </section>
 
         <section className="p-4">
-            <h3 className='text-lg font-semibold'>Our Philosophy</h3>
+            <h3 className='text-2xl font-semibold'>Our Philosophy</h3>
             <ul className='pl-5'>
                 <li><span className='font-medium'>Treat the person, not the disease:</span> We look at physical, emotional, and lifestyle factors to create holistic solutions.</li>
                 <li><span className='font-medium'>Prioritize safety:</span> Our natural remedies are gentle, non-addictive, and free from harmful side effects.</li>
@@ -32,13 +32,31 @@ export default function HomePage () {
             </ul>
         </section>
 
-        <section className="p-4">
-            <h2 className='text-lg font-semibold'>Patient Stories</h2>
+        <section className="py-4 pl-4">
+            <h2 className='text-2xl font-semibold'>Patient Stories</h2>
+            <div className=''>
             <Card 
                 name='Vaibhavi Gaikwad, Baramati' 
                 title='After years of battling chronic fatigue, Dr. Mahesh gave me my life back...' 
                 testimony={`Before seeing him, I had consulted four or five doctors, but their treatments only provided temporary relief—my symptoms would return within weeks. Dr. Mahesh took a deeper approach, carefully investigating my condition by asking about my lifestyle and habits. This personalized attention made all the difference in my recovery. I’m incredibly grateful for his help and have already recommended him to my friends and family.
                 Thank you again Dr.`}/>
+              <Card 
+                name='Tejas Shedge'
+                title='Good results within 4-5 weeks'
+                testimony='Hii.. I had lots of hair problem from last 6 months.. Continuously hair fall, dandruff , itching over the scalp.. Used lots of shampoo and hair oil but it doesn`t show the result.. After I talk with Dr. Mahesh misal he  took the case  properly and started homeopathic medicine within 2 months.. I get  results in my hair growth and increase the volume of my hair.' 
+              />
+              <Card 
+                testimony='I am suffered from abdominal problem was last 6 yrs and urinary problem.. I visited many hospitals and took various therapies.. but had not relief.. 
+But after meet with Dr. Mahesh Misal gave me positivity, hope and cure from his consulting and treatment within 15 days.. 
+ thankful to the doctor for his skillful homeopathy...'
+              />
+              <Card 
+                testimony='नमस्कार 
+                  माझी मुलगी .... तीला ताप आणि अशक्तपणा गेले 8 दिवस होता काही केल्या बर वाटत नव्हत. पण आम्ही जेव्हा मिसाळ डॉक्टरांना भेटलो आणि होमिओपॅथी  औषध घेतले आणि त्यांनी तीनच डोस दिले.. त्याने तिचा ताप तर गेलाच आणि अशक्त पणाही गेला.. 
+                  Thank you Doctor 🙏🏻
+                  Thank you homeopathy🙏🏻'
+              />
+            </div>
         </section>
 
     </div>
