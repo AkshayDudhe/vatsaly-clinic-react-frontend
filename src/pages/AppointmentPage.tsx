@@ -2,6 +2,7 @@ import Button from "../components/Button";
 import Input from "../components/Input";
 import { useState, useRef, useEffect } from "react";
 import { BACKEND_URL } from "../constants/constants";
+import appointment from '../assets/appointment.jpg'
 
 export default function AppointmentPage () {
 
@@ -58,20 +59,21 @@ export default function AppointmentPage () {
   return (
     <div className="w-full h-screen px-5 bg-lime-100">
       {notificationMessage && <div
-  className={`fixed bottom-10 right-5 ${responseStatus === 200 ? 'text-blue-600 bg-blue-100' : 'text-red-500 bg-red-100'} px-4 py-2 rounded-lg shadow-lg transition-transform duration-500 ${
+  className={`fixed top-20 right-10 ${responseStatus === 200 ? 'text-green-600 bg-green-100' : 'text-red-500 bg-red-100'} px-4 py-2 rounded-lg shadow-lg transition-transform duration-500 ${
     notificationMessage ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
   } cursor-pointer`}
   onClick={() => setNotificationMessage('')}
 >
   {notificationMessage} <i className="pl-5 fa-solid fa-x fa-sm"></i>
 </div>}
-      <div className="grid rows-1 h-3/4 pt-5 shadow shadow-lg">
+      <div className="grid rows-1 pt-5 shadow shadow-lg">
         <div className="grid md:grid-cols-2">
           <div className="flex justify-center items-center bg-orange-200 hidden md:flex">
-            <h1 className="text-center pb-5 text-2xl">Book Appointment</h1>
+            <img src={appointment} className="object-cover h-full w-full overflow-hidden"/>
           </div>
           <div className="flex justify-center items-center bg-white">
           <div className="p-5 grid items-center">
+          <h1 className="text-center pb-5 text-2xl">Book Appointment</h1>
             <form>
               <div className="grid grid-cols-2 gap-3">        
                 <Input name='firstName' placeholder='First Name' onChange={handleChange} value={formData.firstName}/>
